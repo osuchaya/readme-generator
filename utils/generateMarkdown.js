@@ -32,6 +32,14 @@ ${data.Description}
 
 * [Installation](#installation)
 
+* [Usage](#usage)
+
+* [Contribution] (#contribution)
+
+* [Tests] (#test)
+
+* [Questions] (#questions)
+
 `
 }
 

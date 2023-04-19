@@ -1,9 +1,9 @@
-# hi
-![License:](https://img.shields.io/badge/License-GPL_3.0-yellow.svg)
+# sunnyday
+![License:](https://img.shields.io/badge/License-BSD_3-yellow.svg)
 
 ## Description
 
-hello
+to generate md for sunnyday
 
 ## Table of Contents
 
@@ -11,9 +11,19 @@ hello
 
 * [Usage](#usage)
 
-* [Contribution] (#contribution)
+* [Contribution](#contribution)
 
-* [Tests] (#test)
+* [Tests](#test)
 
-* [Questions] (#questions)
+* [Questions](#questions) 
 
+## Installation
+no instruction
+## Usage
+no usage info
+## Contribution
+no one contribute
+## Test
+no test done
+## Questions
+  If there are any questions, please contact me via git@willgit.com

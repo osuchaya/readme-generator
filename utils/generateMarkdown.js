@@ -28,8 +28,11 @@ ${renderLicenseBadge(data.License)}
 
 ${data.Description}
 
-`
+## Table of Contents
 
+* [Installation](#installation)
+
+`
 }
 
 module.exports = generateMarkdown;

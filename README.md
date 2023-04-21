@@ -1,9 +1,9 @@
-# sunnyday
-![License:](https://img.shields.io/badge/License-BSD_3-yellow.svg)
+# Projectname
+![License:](https://img.shields.io/badge/License-GPL_3.0-yellow.svg)
 
 ## Description
 
-to generate md for sunnyday
+just a project
 
 ## Table of Contents
 
@@ -18,12 +18,21 @@ to generate md for sunnyday
 * [Questions](#questions) 
 
 ## Installation
-no instruction
+
+install node
+
 ## Usage
-no usage info
+
+for generate readme
+
 ## Contribution
-no one contribute
+
+none
+
 ## Test
-no test done
+
+none
+
 ## Questions
-  If there are any questions, please contact me via git@willgit.com
+
+  If there are any questions, please contact me via hi@hi.com

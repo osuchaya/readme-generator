@@ -13,11 +13,20 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
+//['MIT', 'APACHE_2.0', 'GPL_3.0', 'BSD_3', 'BSD_2', 'None']
 function renderLicenseLink(license) {
   let licenseLink = '';
-  if (license !== 'None'){
-  licenseLink = 
-  }
+  if (license === 'None'){
+  licenseLink = ""}
+ else if (license === 'APACHE_2.0') {licenseLink = 
+  "https://www.apache.org/licenses/LICENSE-2.0"}
+  else if (license === "GPL_3.0") {
+    licenseLink === "https://www.gnu.org/licenses/gpl-3.0.en.html"}
+    else if (license === "BSD_3") { licenseLink === 
+  "https://opensource.org/license/bsd-3-clause/"}
+  else if (license === "BSD_2") {
+  "https://opensource.org/license/bsd-2-clause/"}
+
  }
 
 // TODO: Create a function that returns the license section of README
@@ -25,7 +34,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) { 
   
   if (license !== 'None'){
-  licenseSection = 
+  licenseSection = ""
   }
 }
 
@@ -52,14 +61,23 @@ ${data.Description}
 * [Questions](#questions) 
 
 ## Installation
+
 ${data.Installation}
+
 ## Usage
+
 ${data.Usage}
+
 ## Contribution
+
 ${data.Contribution}
+
 ## Test
+
 ${data.Test}
+
 ## Questions
+
   If there are any questions, please contact me via ${data.Email}
 `
 }

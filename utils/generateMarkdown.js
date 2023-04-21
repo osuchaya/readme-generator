@@ -26,10 +26,13 @@ return  licenseLink;
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) { 
-  
+  let licenseSection = "";
   if (license !== 'None'){
-  licenseSection = ""
+    licenseSection = `## License
+
+    This project is licensed under the ${license} license.`;
   }
+  return licenseSection;
 }
 
 
@@ -63,6 +66,8 @@ ${data.Installation}
 
 ${data.Usage}
 
+${renderLicenseSection(data.License)}
+
 ## Contribution
 
 ${data.Contribution}
@@ -72,7 +77,7 @@ ${data.Contribution}
 ${data.Test}
 
 ## Questions
-
+  Please visit my GitHub page on [https://github.com/${data.GitHub}](https://github.com/${data.GitHub}/) for more of my projects.
   If there are any questions, please contact me via ${data.Email}
 `
 }
